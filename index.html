@@ -100,7 +100,7 @@
  
    // set database untuk pengiriman pesan user 
    var urlDb = "https://ultahwebytzerudev-default-rtdb.firebaseio.com/project/" // jangan merubah link ini
-   var namaUltahRandom = "GANTI_DENGAN_JUDUL_ULTAHMU" //wajib di ganti !
+   var namaUltahRandom = "contohZeruUltah" //wajib di ganti !
    var resultDb = urlDb + namaUltahRandom + ".json"
   
    document.getElementById('form_pesan').addEventListener("submit", (e) => {
@@ -147,14 +147,14 @@
 
   // set nama ulang tahun mu
   var namaUltah = document.getElementById("nama_ultah")
-  var setNamaUltah = "NAMA_ULTAHMU"
+  var setNamaUltah = "Zeru dev"
   namaUltah.textContent = setNamaUltah
   
   // settimg message dan system
   // set message nya disini
-  var message1 = "GANTI UNTUK MESSAGE PERTAMA DI BOX UCAPAN"
-  var message2 = "GANTI UNTUK MESSAGE KEDUA DI BOX UCAPAN INI."
-  var message3 = "GANTI UNTUK MESSAGE KE TIGA DI BOX UCAPAN"
+  var message1 = "Selamat ulang tahun " + setNamaUltah + ", semoga hari ini menjadi hari yang paling berkesan dan membahagiakan dalam hidupmu. Semoga semua impian dan harapanmu tercapai, dan semoga kita dapat berbagi kebahagiaan ini bersama. Terima kasih telah menjadi bagian dari hidupku, dan semoga kita dapat terus bersama dalam perjalanan hidup ini. Selamat ulang tahun, dan semoga tahun ini menjadi tahun yang paling baik bagi kita semua!"
+  var message2 = "semoga kebahagiaan dan kesuksesan selalu menyertaimu. Semoga impianmu tercapai dan harapanmu menjadi kenyataan. Terima kasih atas persahabatan dan kebersamaan kita. Semoga tahun ini membawa berkah dan keberuntungan bagi kita semua. Selamat ulang tahun, dan semoga hari ini menjadi hari yang tak terlupakan!"
+  var message3 = "Semoga hari ini membawa kebahagiaan dan kesuksesan sepanjang tahun!. byee, silakan tinggal kan pesan mu ya " + setNamaUltah
   
   const messageText = document.getElementById('message');
   var isFirst = true;
